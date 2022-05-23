@@ -16,7 +16,7 @@ use App\Http\Controllers\FormNewsController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('layout/noticias');
 });
 
 
